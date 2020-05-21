@@ -1,0 +1,8 @@
+stages:
+- name: stage1
+  steps:
+  - runScriptConfig:
+      image: ubuntu:18.04
+      shellScript: echo "haha"
+timeout: 60
+notification: {}
