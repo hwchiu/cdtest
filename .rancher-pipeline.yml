@@ -10,6 +10,6 @@ stages:
       catalogTemplate: c-fqfdk:hwchiu-cicd-app
       version: 0.1.0
       name: rancher-app
-      targetNamespace: p-r82z7-pipeline
+      targetNamespace: hwchiu
 timeout: 60
 notification: {}
