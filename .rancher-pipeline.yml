@@ -4,5 +4,12 @@ stages:
   - runScriptConfig:
       image: ubuntu:18.04
       shellScript: echo "haha"
+- name: deploy
+  steps:
+  - applyAppConfig:
+      catalogTemplate: c-fqfdk:hwchiu-cicd-app
+      version: 0.1.0
+      name: rancher-app
+      targetNamespace: p-r82z7-pipeline
 timeout: 60
 notification: {}
