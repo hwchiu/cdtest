@@ -3,7 +3,7 @@ stages:
   steps:
   - runScriptConfig:
       image: ubuntu:18.04
-      shellScript: echo "haha"
+      shellScript: echo "test"
 - name: deploy
   steps:
   - applyAppConfig:
