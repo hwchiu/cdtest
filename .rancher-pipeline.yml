@@ -7,9 +7,9 @@ stages:
 - name: deploy
   steps:
   - applyAppConfig:
-      catalogTemplate: p-kf597:hwchiu-app-cicd-app
-      version: 0.1.0
+      catalogTemplate: cattle-global-data:demo-cicd-app
+      version: 0.2.4
       name: rancher-app
-      targetNamespace: cicd-app
+      targetNamespace: hwchiu
 timeout: 60
 notification: {}
