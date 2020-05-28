@@ -1,2 +1,2 @@
 # cdtest
-cd-test
+cd-test-dev
