@@ -5,7 +5,7 @@
 nginx:
   replicaCount: 4
   image:
-    tag: latest
+    tag: dev
   pullPolicy: Always
   prefix: test-new
 
