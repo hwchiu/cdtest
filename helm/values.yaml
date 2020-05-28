@@ -3,11 +3,11 @@
 # Declare variables to be passed into your templates.
 
 nginx:
-  replicaCount: 2
+  replicaCount: 4
   image:
     tag: latest
   pullPolicy: Always
-  prefix: test
+  prefix: test-new
 
 debug:
   replicaCount: 1
